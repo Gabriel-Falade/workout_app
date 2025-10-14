@@ -209,7 +209,7 @@ def main():
             # Rep feedback toast
             if rep_event:
                 # Build lines and arm the toast timer
-                rep_idx = rep_event["rep_index"]
+                rep_idx = rep_event["rep_index_valid"]
                 rep_cls = rep_event["class"]
                 cues = rep_event.get("cues", [])
                 header = f"Rep {rep_idx}: {rep_cls.upper()}"
@@ -234,3 +234,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
