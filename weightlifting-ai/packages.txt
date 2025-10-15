@@ -1,2 +1,7 @@
-libopus0
-libvpx7
+ffmpeg
+libsm6
+libxext6
+libgl1-mesa-glx
+libglib2.0-0
+libxrender1
+libgtk2.0-0
